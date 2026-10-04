@@ -1,0 +1,80 @@
+<html> 
+	<head>
+		<title>ALGORYTHM!</title>
+			<link href="HomepageStyle.css" rel="stylesheet" type="text/css">	
+			<link href='https://fonts.googleapis.com/css?family=Changa One' rel='stylesheet'>	
+	</head> 
+<body>
+
+
+<ul>
+  <li><a href="RockAlbum.html">Rock</a> </li> 
+  <li><a href="JazzAlbums.html">Jazz</a> </li>
+  <li><a href="R&BHiphop.html">R&B/Hiphop</a> </li>
+  <li><a href="PopAlbums.html">Pop</a> </li>
+</ul>
+
+<h1 align="center"> Algorhythm </h1> 
+		<h2 align="center"> Discover your favourite genres</h2>
+
+<div id="tiles"> 
+
+	<div> <a href="RockAlbum.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0Ky-kab8zlibMe9FyD4b8TmyA4R1GqEOj5EophBEdIdBb0I:https://www.creativefabrica.com/wp-content/uploads/2024/05/12/Rock-Music-Fonts-97465024-1.png&s", width="500"height="500"> </a> </div>
+	<div> <a href="JazzAlbums.html"> <img src="https://play-lh.googleusercontent.com/-H1JFuFiylVXAO3DukGQQrcUyusEL98qpLY_YEzA4fQKoN03ekMeA0EJybBX8HXM9bc" width="500" height="500"> </a> </div>
+
+</div>
+<div id="tiles"> 
+
+	<div> <a href="R&BHiphop.html"> <img src="pop.jfif" width="500" height="500"></a> </div>
+	<div> <a href="PopAlbums.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1AXOswwi491w4rY5HsIXrS5pf7LOdDK31al3a7mSR9XhgglwJ:https://lookaside.fbsbx.com/lookaside/crawler/media/%3Fmedia_id%3D100068930780880&s" width="500" height="500"></a> </div>	
+	
+</div>
+
+
+
+
+<br />
+<br />
+<br />
+
+<div id="buttonBox">
+<button type ="button" onclick="validate()">Click the button</button>
+<p id="hpbutton">
+</div>
+
+<script> function validate() {
+	bands=["Linkin Park", "Greenday", "Queen", "Black Sabbath", "Fleetwood Mac", "Bread", "The Beatles", "The Rolling Stones", "The Who", "The Doors", "Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains", "Stone Temple Pilots", "Rage Against the Machine", "Red Hot Chili Peppers", "Foo Fighters", "Radiohead", "Muse", "Coldplay", "U2", "Oasis", "Blur", "Pulp", "Arctic Monkeys", "The Strokes", "The White Stripes", "The Black Keys"];
+	number=Math.floor(Math.random()*bands.length);
+
+
+	
+	document.getElementById('hpbutton').innerHTML= bands[number]
+}
+</script>
+
+
+
+
+
+
+
+
+<div id="SuggestButton">
+
+
+<form name="question">
+<p id="box">Suggest a song/album</p>
+
+Artist : <input type="text" name="artist">
+<p> Song title : <input type="text" name="song"></p>
+<button type ="button" onclick="SongSuggestion()">Submit</button>
+
+<script> function SongSuggestion() {
+	alert("Thank you")
+}
+</script>
+
+</div>
+
+</body>
+</html>

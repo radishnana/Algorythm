@@ -1,0 +1,39 @@
+#tiles {
+	display: flex;  
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tiles div{
+	background-color: white;
+	margin: 1px;
+	padding: 10px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#buttonBox {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 10%;
+}
+
+
+#SuggestButton {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 5%;
+
+background-color: rgb(136, 236, 121);
+	display: flex;  
+	justify-content: center;
+	width: 20%;
+}

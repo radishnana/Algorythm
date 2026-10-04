@@ -1,0 +1,19 @@
+.R&BHiphopAlbumsImg {
+	width: 70%;
+	overflow: hidden;
+	margin-top: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.column {
+	width: 18%;
+	float: left;
+	margin-right: 5%;
+}
+
+.column a {
+	display: block;
+	float: center;
+	margin-bottom: 15px;
+}

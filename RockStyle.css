@@ -1,0 +1,54 @@
+.RockAlbumImg {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.column {
+  width: 48%;
+  float: left;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.RockAlbumImg::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#tiles div {
+	background-color: white;
+	margin: 1px;
+	padding: 10px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}

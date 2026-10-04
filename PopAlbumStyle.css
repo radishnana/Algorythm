@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+#page 
+{ 	
+	max-width:800px;
+	margin: 150px auto;
+	height: auto;
+	padding: 30px;
+}
+
+#header 
+{ 	
+	padding: 5px;
+	background-color: NavyBlue;
+	text-align: center; 
+	color: #000080;
+}
+
+
+.PopAlbumsImg {
+	width: 70%;
+	overflow: hidden;
+	margin-top: 50px;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.column {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+.column a {
+	display: block;
+	float: center;
+	margin-bottom: 15px;
+}
+
+.column img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
